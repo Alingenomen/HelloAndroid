@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 
 //Needed for submission
-apply plugin: com.udacity.AssessmentPlugin
-ext.emailAddress = "dzengiz.tafa@telenet.be"
-ext.projectID = "HelloAndroid"
+//apply plugin: com.udacity.AssessmentPlugin
+//ext.emailAddress = "dzengiz.tafa@telenet.be"
+//ext.projectID = "HelloAndroid"
 //
 
 android {
