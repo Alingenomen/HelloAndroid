@@ -18,16 +18,22 @@
         android:padding="@dimen/headImagePadding"/>
 
     <TextView
+        android:id="@+id/dummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:paddingLeft="@dimen/defaultPaddingLeft" />
+
+    <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="6"
+        android:layout_weight="4"
         android:paddingLeft="@dimen/defaultPaddingLeft"
-        android:paddingTop="@dimen/titleTopPadding"
         android:text="@string/title"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
